@@ -1,0 +1,6 @@
+rebar get-deps
+cd rel
+./rc.sh
+
+
+test:send_packet().
