@@ -1,0 +1,14 @@
+{application, udp_tunnel,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib,
+                  ranch,
+                  lager
+                 ]},
+  {mod, { udp_tunnel_app, []}},
+  {env, []}
+ ]}.
